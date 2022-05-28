@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 const StyledNavbar = styled.div`
-
-  container {
+    margin-bottom: 1 rem;
+    
     background-color: #4361ee;
     padding: 1rem;
     color: #fff;
-  }
+
   
   nav {
     display: flex;
@@ -28,7 +28,7 @@ const StyledNavbar = styled.div`
     margin-bottom: 1rem;
   }
   
-  Link {
+  link {
     text-decoration: none;
     color: #fff;
   }
@@ -43,11 +43,11 @@ const StyledNavbar = styled.div`
       margin-bottom: 0;
     }
   
-    list {
+    ul {
       flex-direction: row;
     }
   
-    item {
+    li {
       margin: 0 1rem;
     }
 
